@@ -1,0 +1,36 @@
+2022-01-19 11:31:54.255850: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-01-19 11:31:54.304306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:05:00.0
+2022-01-19 11:31:54.304505: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2022-01-19 11:31:54.305893: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2022-01-19 11:31:54.307120: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2022-01-19 11:31:54.307404: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2022-01-19 11:31:54.309151: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2022-01-19 11:31:54.310488: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2022-01-19 11:31:54.314704: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2022-01-19 11:31:54.324719: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2022-01-19 11:31:54.324945: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2022-01-19 11:31:54.335307: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2099890000 Hz
+2022-01-19 11:31:54.335582: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5581e3d0ade0 executing computations on platform Host. Devices:
+2022-01-19 11:31:54.335615: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2022-01-19 11:31:54.345437: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:05:00.0
+2022-01-19 11:31:54.345517: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2022-01-19 11:31:54.345546: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2022-01-19 11:31:54.345569: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2022-01-19 11:31:54.345592: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2022-01-19 11:31:54.345615: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2022-01-19 11:31:54.345638: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2022-01-19 11:31:54.345662: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2022-01-19 11:31:54.363942: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2022-01-19 11:31:54.364018: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2022-01-19 11:31:54.904766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-01-19 11:31:54.904811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2022-01-19 11:31:54.904820: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2022-01-19 11:31:54.916756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 2911 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:05:00.0, compute capability: 6.1)
+2022-01-19 11:31:54.920893: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5581e4350120 executing computations on platform CUDA. Devices:
+2022-01-19 11:31:54.920930: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): TITAN X (Pascal), Compute Capability 6.1
+2022-01-19 11:31:57.151164: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+Using TensorFlow backend.

@@ -1,0 +1,47 @@
+2021-01-25 19:47:51.095961: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-01-25 19:47:51.194585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:04:00.0
+2021-01-25 19:47:51.194905: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-01-25 19:47:51.197496: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-01-25 19:47:51.199646: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-01-25 19:47:51.200159: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-01-25 19:47:51.203021: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-01-25 19:47:51.205205: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-01-25 19:47:51.212054: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-01-25 19:47:51.220678: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-01-25 19:47:51.221087: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2021-01-25 19:47:51.232428: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2099810000 Hz
+2021-01-25 19:47:51.232876: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55afa79daed0 executing computations on platform Host. Devices:
+2021-01-25 19:47:51.232915: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2021-01-25 19:47:51.237406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:04:00.0
+2021-01-25 19:47:51.237454: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-01-25 19:47:51.237480: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-01-25 19:47:51.237501: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-01-25 19:47:51.237521: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-01-25 19:47:51.237541: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-01-25 19:47:51.237561: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-01-25 19:47:51.237582: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-01-25 19:47:51.245957: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-01-25 19:47:51.246017: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-01-25 19:47:51.498160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-01-25 19:47:51.498219: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-01-25 19:47:51.498240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-01-25 19:47:51.509720: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11448 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:04:00.0, compute capability: 6.1)
+2021-01-25 19:47:51.513710: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55afa80259f0 executing computations on platform CUDA. Devices:
+2021-01-25 19:47:51.513733: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): TITAN X (Pascal), Compute Capability 6.1
+2021-01-25 19:47:57.677932: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-01-25 19:47:58.000915: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+Using TensorFlow backend.
+w4code_example.py:51: UserWarning: Update your `Model` call to the Keras 2 API: `Model(inputs=Tensor("in..., outputs=Tensor("pr...)`
+  model = Model(input=base_model.input, output=x)
+w4code_example.py:99: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
+  validation_steps= (int(validation_samples//batch_size)+1), callbacks=[tbCallBack])
+w4code_example.py:99: UserWarning: Update your `fit_generator` call to the Keras 2 API: `fit_generator(<keras.pre..., steps_per_epoch=13, validation_data=<keras.pre..., validation_steps=26, callbacks=[<keras.ca..., epochs=20)`
+  validation_steps= (int(validation_samples//batch_size)+1), callbacks=[tbCallBack])
+w4code_example.py:102: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
+  result = model.evaluate_generator(test_generator, val_samples=validation_samples)
+w4code_example.py:102: UserWarning: Update your `evaluate_generator` call to the Keras 2 API: `evaluate_generator(<keras.pre..., steps=807)`
+  result = model.evaluate_generator(test_generator, val_samples=validation_samples)

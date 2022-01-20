@@ -1,0 +1,34 @@
+Building MLP model...
+
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+first (Reshape)              (None, 3072)              0         
+_________________________________________________________________
+second (Dense)               (None, 2048)              6293504   
+_________________________________________________________________
+dense_1 (Dense)              (None, 8)                 16392     
+=================================================================
+Total params: 6,309,896
+Trainable params: 6,309,896
+Non-trainable params: 0
+_________________________________________________________________
+None
+Done!
+
+WARNING: model file /home/ramon/work/mcv3/my_first_mlp.h5 exists and will be overwritten!
+
+Start training...
+
+Found 1881 images belonging to 8 classes.
+Found 807 images belonging to 8 classes.
+Done!
+
+Saving the model into /home/ramon/work/mcv3/my_first_mlp.h5 
+
+Done!
+
+prediction for image /home/mcv/m3/datasets/MIT_split/test/coast/cdmc900.jpg
+[[0.35495713 0.38920125 0.5461188  ... 0.5639871  0.         0.        ]]
+Done!
